@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+@layer base {
+  html {
+    font-size: 16px; /* Base font size */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    @apply text-gray-800;
+  }
+  
+  body {
+    @apply text-base leading-relaxed;
+  }
+  
+  h1 {
+    @apply text-4xl font-bold mb-4;
+  }
+  
+  h2 {
+    @apply text-3xl font-semibold mb-3;
+  }
+  
+  h3 {
+    @apply text-2xl font-medium mb-2;
+  }
+  
+  p {
+    @apply mb-4;
+  }
+  
+  a {
+    @apply text-blue-600 hover:text-blue-800 transition-colors;
+  }
+}
